@@ -1,0 +1,12 @@
+[1]
+Active Tab Index=0
+Tab Count=1
+Tab Data 0=\x00\x00\x00\x02\x00\x00\x00\x00afile:///run/media/mihir/Windows-SSD/Users/Mihir%20Manjrekar/OneDrive/Personal%20backup/RM/Aashram\x00\x00\x00\x00\x01\x00\x00\x00pfile:///run/media/mihir/Windows-SSD/Users/Mihir%20Manjrekar/OneDrive/Personal%20backup/RM/Aashram/A006%20(2).tif\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1b\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x01\xad\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=DolphinMainWindow
+MenuBar=Disabled
+ObjectName=Dolphin#1

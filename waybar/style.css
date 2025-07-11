@@ -1,0 +1,71 @@
+@import 'colors.css';
+
+@define-color bg-dim rgba(0, 0, 0, 0.8);
+
+* {
+	all: unset; 
+	font-family: "Caskaydia Cove";
+}
+
+window#waybar {
+	/* background-color: rgba(0, 0, 0, 0.5); */
+} 
+
+.modules-left {
+	margin-left: 10px;
+}
+
+.modules-right {
+	margin-right: 10px;
+}
+
+.modules-left, .modules-right, .modules-center {
+	background-color: @bg-dim;
+	color: @on_background;
+	border-radius: 1em;
+	border-top: none;
+	padding: 0px 20px;
+}
+
+tooltip {
+	background: @background;
+	border: 1px solid @outline;
+	border-radius: 1em;
+}
+
+tooltip label {
+	padding: 5px 10px;
+}
+
+#workspaces button {
+	color: @primary_container;
+	padding: 0 0.3em;
+	font-size: 0.8em;
+	transition-property: color, font-size;
+	transition-duration: 400ms;
+	transition-timing-function: cubic-bezier(0.23,1,0.32,1);
+}
+
+#workspaces button.active {
+	color: @primary_fixed;
+	font-size: 1.2em;
+}
+
+#workspaces button.urgent {
+	color: red;
+	font-size: 1.2em;
+}
+
+#wireplumber.muted {
+	color: grey;
+}
+
+#battery.good {
+	color: @on_background;
+}
+#battery.warning {
+	color: orange;
+}
+#battery.critical {
+	color: red;
+}

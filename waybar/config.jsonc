@@ -1,0 +1,81 @@
+// _*_ mode: jsonc _*_
+{
+	"layer": "top",
+	"position": "top",
+	"height": 30,
+	"margin": "5 0",
+	"spacing": 14,
+	"modules-left": [
+		"hyprland/workspaces"
+	],
+	"modules-center": [
+		"clock"
+		// "hyprland/window"
+	],
+	"modules-right": [
+		"wireplumber",
+		"battery"
+	],
+
+	// Modules
+
+	"hyprland/workspaces": {
+		"format": "{icon}",
+		"format-icons": {
+			"default": " ",
+			"active": " ",
+			"urgent": "󰀨 "
+		}
+	},
+	"clock": {
+		"interval": 60,
+		"format": "{:%I:%M %p}",
+		"timezone": "Asia/Kolkata",
+		"tooltip-format": "{:%A\n\n{calendar}}",
+		"actions": {
+				"on-click-right": "mode",
+				"on-scroll-up": "shift_down",
+				"on-scroll-down": "shift_up"
+		},
+		"calendar": {
+			"mode": "month",
+			"mode-mon-col": 3,
+			"weeks-pos": "right",
+			"on-scroll": 1,
+			"format": {
+				"months":
+				"<span color='#ffead3'>{}</span>",
+				"days":
+				"<span color='#ecc6d9'>{}</span>",
+				"weeks":
+				"<span color='#99ffdd'>W{}</span>",
+				"weekdays":
+				"<span color='#ffcc66'>{}</span>",
+				"today":
+				"<span color='#ff6699'><b>{}</b></span>"
+			}
+			
+		}
+	},
+	"wireplumber": {
+		"format": "<big>{icon} </big>{volume}%",
+		"format-muted": "<span strikethrough='true'><big> </big>{volume}%</span>",
+		"on-click": "helvum",
+		"format-icons": [" ", " ", " "]
+	},
+	"battery": {
+		"interval": 60,
+		"states": {
+			"good": 100,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "<big>{icon}</big>{capacity}%",
+		"format-icons": [
+			"󰁺 ", "󰁻 ", "󰁼 ", "󰁽 ", "󰁾 ", "󰁿 ", "󰂀 ", "󰂁 ", "󰂂 ", "󰁹 "
+		],
+		"format-charging": "󱐋 {capacity}%",
+		"format-time": "{H}h {M}m",
+		"tooltip-format": "Remaining: {time}"
+	}
+}

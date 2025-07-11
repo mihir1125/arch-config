@@ -1,0 +1,7 @@
+[Added Associations]
+image/png=swayimg-3.desktop;swayimg-2.desktop;
+image/tiff=swayimg-4.desktop;
+
+[Default Applications]
+image/png=swayimg-3.desktop;
+image/tiff=swayimg-4.desktop;
