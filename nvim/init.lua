@@ -1,6 +1,7 @@
 require('config.lazy')
 
 vim.opt.relativenumber = true
+vim.opt.number = true
 vim.opt.hlsearch = false
 vim.opt.wrap = true
 vim.opt.tabstop = 4

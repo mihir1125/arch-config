@@ -13,6 +13,7 @@
 		// "hyprland/window"
 	],
 	"modules-right": [
+		"custom/notif",
 		"wireplumber",
 		"battery"
 	],
@@ -56,6 +57,12 @@
 			}
 			
 		}
+	},
+	"custom/notif": {
+		"exec": "~/.config/hypr/scripts/notif.sh | jq --unbuffered --compact-output",
+		"restart-interval": 10,
+		"class": "test",
+		"return-type": "json"
 	},
 	"wireplumber": {
 		"format": "<big>{icon} </big>{volume}%",

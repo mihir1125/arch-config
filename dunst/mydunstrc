@@ -1,0 +1,35 @@
+[global]
+	height = (30, 200)
+	origin = bottom-right
+	offset = (10, 10)
+	frame_width = 2
+	corner_radius = 15
+	corners = all
+	horizontal_padding = 20
+	format = "<small>%a</small>\n<b>%s</b>\n%b"
+	dmenu = /usr/bin/wofi -d -p dunst 
+	mouse_right_click = context
+	mouse_middle_click = close_current
+	mouse_left_click = do_action
+	icon_path = /usr/share/icons/breeze-dark/
+	enable_recursive_icon_lookup = true
+	stack_duplicates = false
+	font = Caskaydia Cove 10
+	icon_theme = breeze-dark
+	icon_position = left
+	min_icon_size = 24
+	max_icon_size = 64
+	gap_size = 2
+	
+[urgency_normal]
+	background = "#000000CC"
+	frame_color = "#000000CC"
+	foreground = "#F0DEDE"
+[urgency_low]
+	background = "#000000CC"
+	frame_color = "#000000CC"
+	foreground = "#F0DEDE"
+[urgency_critical]
+	background = "#000000CC"
+	frame_color = "#FE904ACC"
+	foreground = "#FE904A"

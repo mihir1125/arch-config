@@ -1,0 +1,34 @@
+@import "/home/mihir/.config/waybar/colors.css";
+
+window {
+	font: "Caskaydia Cove", monospace;
+}
+
+#outer-box {
+	background-color: @background;
+	color: @on_background;
+}
+
+#input {
+	background-color: @primary_container;
+	color: @on_primary_container;
+	border-radius: 15px;
+	margin: 10px;
+}
+#input #text {
+	color: @on_primary_container;
+}
+
+#entry {
+	margin: 0px 10px;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+#entry:selected {
+	background-color: @primary;
+	color: @on_primary;
+}
+#entry:selected #text {
+	color: @on_primary;
+}

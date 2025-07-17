@@ -207,7 +207,7 @@
     ignore_newline = no
 
     # Stack together notifications with the same content
-    stack_duplicates = false
+    stack_duplicates = true
 
     # Hide the count of stacked notifications with the same content
     hide_duplicate_count = false
@@ -247,7 +247,7 @@
     sticky_history = yes
 
     # Maximum amount of notifications kept in history
-    history_length = 30
+    history_length = 20
 
     ### Misc/Advanced ###
 
@@ -271,7 +271,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 30
+    corner_radius = 0
 
     # Define which corners to round when drawing the window. If the corner radius
     # is set to 0 this option will be ignored.
@@ -325,7 +325,7 @@
     # will be executed in sequence.
     mouse_left_click = close_current
     mouse_middle_click = do_action, close_current
-    mouse_right_click = context
+    mouse_right_click = close_all
 
 # Experimental features that may or may not work correctly. Do not expect them
 # to have a consistent behaviour across releases.

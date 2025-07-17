@@ -25,6 +25,7 @@ window#waybar {
 	border-radius: 1em;
 	border-top: none;
 	padding: 0px 20px;
+	transition: all 0.3s ease-in;
 }
 
 tooltip {
@@ -54,6 +55,11 @@ tooltip label {
 #workspaces button.urgent {
 	color: red;
 	font-size: 1.2em;
+}
+
+#custom-notif.big {
+	transition: color 0.5s ease-in-out;
+	color: hotpink;
 }
 
 #wireplumber.muted {
