@@ -1,0 +1,11 @@
+# GIMP gimp-heal-tool options
+
+(brush "1. Pixel")
+(dynamics "Pressure Size")
+(pattern "Pine")
+(palette "Color History")
+(brush-size 60)
+(brush-spacing 0.20000000000000001)
+(fade-length 98)
+
+# end of gimp-heal-tool options

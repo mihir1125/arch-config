@@ -2,6 +2,7 @@
 
 window {
 	font: "Caskaydia Cove", monospace;
+	background-color: @background;
 }
 
 #outer-box {
@@ -19,8 +20,25 @@ window {
 	color: @on_primary_container;
 }
 
+expander > list {
+	background-color: inherit;
+}
+
+expander > list {
+	margin-top: 10px;
+}
+
+expander > list #entry {
+	color: hotpink;
+	border-radius: 0px;
+	border-bottom: solid 1px @primary_container;
+	border-left: solid 1px @primary_container;
+	padding: 5px 10px;
+	margin: 0px;
+}
+
 #entry {
-	margin: 0px 10px;
+	margin: 0px 30px;
 	padding: 10px;
 	border-radius: 15px;
 }

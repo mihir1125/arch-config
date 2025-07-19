@@ -1,7 +1,9 @@
 [Added Associations]
-image/png=swayimg-3.desktop;swayimg-2.desktop;
+image/jpeg=swayimg-8.desktop;swayimg-7.desktop;swayimg-6.desktop;
+image/png=swayimg-5.desktop;swayimg-3.desktop;swayimg-2.desktop;
 image/tiff=swayimg-4.desktop;
 
 [Default Applications]
-image/png=swayimg-3.desktop;
+image/jpeg=swayimg-8.desktop;
+image/png=swayimg-5.desktop;
 image/tiff=swayimg-4.desktop;
